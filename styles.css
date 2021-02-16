@@ -1,5 +1,5 @@
 body {
-	background-image:url(../background.jpg);
+	background-image:url(./background.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -47,34 +47,27 @@ p {
   overflow: auto;
 }
 
-.history {
-	grid-area: 1 / 1 / 4 / 2;
+.his > div {
 	background-color: #d9d9d9;
 	border-radius: 25px;
 	margin: 15px;
 	box-shadow: 5px 5px 5px 0 grey;
 }
 
+.history {
+	grid-area: 1 / 1 / 4 / 2;
+}
+
 .geo {
 	grid-area: 1 / 2 / 5 / 3;
-	background-color: #d9d9d9;
-	border-radius: 25px;
-	margin: 15px;
-	box-shadow: 5px 5px 5px 0 grey;}
+}
 
 .climate {
 	grid-area: 4 / 1 / 8 / 2;
-	background-color: #d9d9d9;
-	border-radius: 25px;
-	margin: 15px;
-	box-shadow: 5px 5px 5px 0 grey; }
+}
 
 .impact {
 	grid-area: 5 / 2 / 8 / 3;
-	background-color: #d9d9d9;
-	border-radius: 25px;
-	margin: 15px;
-	box-shadow: 5px 5px 5px 0 grey;
 }
 
 
