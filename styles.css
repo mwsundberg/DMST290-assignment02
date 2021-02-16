@@ -23,11 +23,8 @@ figure {
 	width: 92%;
 	max-width: 1200px;
 }
-.img1 {
-	width:80%;
-	height:80%;
-}
-.img2 {
+
+.img {
 	width:80%;
 	height:80%;
 }
@@ -57,22 +54,18 @@ p {
 .history {
 	grid-area: 1 / 1 / 4 / 2;
 }
-
 .geo {
 	grid-area: 1 / 2 / 5 / 3;
 }
-
 .climate {
 	grid-area: 4 / 1 / 8 / 2;
 }
-
 .impact {
 	grid-area: 5 / 2 / 8 / 3;
 }
 
 
 h1 {
-	text-align: center;
 	font-weight: bold;
 	font-size: 60px;
 	color:#ffffff;
@@ -80,7 +73,7 @@ h1 {
 
 h2 {
 	text-align: left;
-	margin: 10px 10px 10px 10px;
+	margin: 10px;
 	font-weight: bold;
 	font-size: 45px;
 	border-left: 5px solid #ffffff;
@@ -95,17 +88,15 @@ h3 {
 	color:#1a1a1a;
 }
 
-header div {
+header {
 	text-align: center;
-	font-size:150%;
-	padding: 5px 0 5px 0;
-	margin-bottom: -2px;
-	margin-top: -30px;
+}
+header strong {
+	font-size: 1.5em;
 }
 
 .intro {
-	padding-bottom: 55px;
-	margin-bottom: -50px;
+	padding-bottom: 5px;
 }
 
 .intro p {
@@ -118,65 +109,10 @@ header div {
 	text-align: center;
 }
 
-aside .uncover {
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	margin-top:-20px;
-}
-
-table,th,td {
-	border: 2px solid black;
-	border-collapse:collapse;
-	color:black;
-	margin-top: 10px;
-	margin-left: 5%;
-	margin-bottom: 50px;
-	font-size: 19px;
-}
-
-th,td {
-	padding:3px 20px 3px 20px;
-	text-align:center;
-}
-
-table tr:nth-child(even) {
-    background-color: rgba(128, 191, 255);
-}
-table tr:nth-child(odd) {
-    background-color: rgba(217, 179, 255);
-}
-
 caption {
 	padding-top:30px;
 	font-size: 25px;
 	font-weight: bold;
-}
-
-ul{
-	margin-top: -5px;
-}
-
-.uncover h3 {
-	margin-top: 8px;
-
-}
-
-.flow-box {
-	color: #808080;
-	display: flex;
-	padding-left:0;
-	justify-content: center;
-	margin-top: -30px;
-}
-
-.flow-box li {
-	list-style-type: none;
-	border-right: 1px solid grey;
-	border-bottom: 1px solid grey;
-	padding: 10px;
-	margin: 15px 80px 15px 30px;
-	border-radius: 20px;
-	box-shadow: 2px 2px 2px 0 grey;
 }
 
 footer h2 {
