@@ -1,3 +1,6 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap');
+
 * {
 	box-sizing: border-box;
 }
@@ -7,7 +10,7 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	font-family: "Optima", sans-serif;
+	font-family: "Georgia", sans-serif;
 	color: #1a1a1a;
 	margin: 0;
 	padding: 0;
@@ -21,7 +24,6 @@ body {
 
 p {
 	line-height: 1.5em;
-	font-family: "Georgia", sans-serif;
 	font-size: 18px;
 }
 
@@ -72,9 +74,12 @@ figure.fullwidth * {
 	grid-area: 5 / 2 / 8 / 3;
 }
 
+h1, h2, h3 {
+  font-family: 'Josefin Sans', sans-serif;
+	padding-top: 0.2em;
+}
 
 h1 {
-	font-weight: bold;
 	font-size: 60px;
 	color:#ffffff;
 	margin: 0;
@@ -82,7 +87,6 @@ h1 {
 
 h2 {
 	text-align: left;
-	font-weight: bold;
 	font-size: 45px;
 	margin: 17px 0;
 	border-left: 10px solid;
