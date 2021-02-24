@@ -41,10 +41,6 @@ figure.fullwidth * {
 	margin-right: 0;
 }
 
-.goright {
-	float: right;
-}
-
 .his {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
@@ -119,10 +115,12 @@ header strong {
 	border-image: linear-gradient(#fff, #d4ebf4) 1;
 }
 
-caption {
-	padding-top:30px;
-	font-size: 25px;
-	font-weight: bold;
+.intro figure {
+	float: right;
+	background-color: #fff9;
+	padding: 5px;
+	margin-left: 15px;
+	margin-top: 5px;
 }
 
 footer a {
